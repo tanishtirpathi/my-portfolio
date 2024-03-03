@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.circle { 
+    height:20px;
+    width:20px;
+    background-color:rgb(44, 160, 73);
+    border: 2px solid rgb(39, 35, 35);
+    border-radius: 50%;
+    margin-inline:3px;
+    margin-block:20px;
+}
+.circle:hover{
+    background-color:rgb(33, 85, 72);
+    
+}
+.ontact{
+    background-color:rgb(60, 114, 60);
+    background-blend-mode: lighten;
+    padding:10px;
+    border:2x solid transparent;
+    border-radius:5px;
+    position: relative;
+    left: 1150px;
+    margin:16px;
+}
+
+.navbar{
+    display:flex
+}
+
+.ontact > a{
+    color:black;
+    font-weight:900;
+    text-decoration: none;
+}
+.ontact:hover{
+    background-color:rgb(9, 155, 87);
+    cursor:url(myBall.cur),auto;
+}
+
+.ontact >a:hover{color:rgb(233, 221, 221);
+  
+}
+.body{
+    background-color:rgb(20,19,26);
+}
+
+
+.sider{display:flex;
+    flex-direction:column;
+    background-color:rgb(31, 32, 32);
+    margin-inline: 40px;
+    width:300px;
+    height:500px;
+    border-radius:2px;
+    overflow:auto;
+    padding-block:20px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgb(31, 32, 32);
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(12, 11, 11);
+    border-radius: 10px;
+  }
+.side li a{
+    text-decoration:none;
+    color:rgb(189, 189, 189);
+    text-justify:center;
+    font-size:18px;
+    transition:1s;
+}
+ 
+li{
+    list-style-type:none;
+    padding-block:20px;
+    padding-inline: 46px;
+
+}
+.side>li a:hover{
+    color:rgb(21, 172, 172);
+    text-shadow:3px 3px 30px aqua;
+    font-size:19px;
+    text-decoration: 2px  red underline;
+    
+}
+
+
+.sider>h3{
+    padding-inline:20px;
+    padding-block:10px;
+    font-size:17px;
+    color:rgb(184, 187, 190);
+    font-family:Monospace;
+}
+.soial a{
+    color:gray;
+    text-decoration:none;
+    font-size:19px;
+    transition:0.4s;
+}
+
+
+i{
+    padding-inline: 5px;
+}
+
+#yt{
+    color:red;
+}
+#insta{
+    color:rgb(204, 45, 93);
+}
+#l{color:rgb(32, 203, 233);}
+#gut{color:rgb(43, 255, 139);}
+#twit{color:white;}
+#instaa:hover{
+    text-shadow:5px 5px 14px rgb(173, 20, 135);
+    text-decoration:  2px rgb(231, 8, 175) underline;
+}
+#linked:hover{
+    text-shadow:5px 5px 14px rgb(21, 166, 177);
+    text-decoration:  2px rgb(8, 205, 231) underline;
+}
+#git:hover{
+    text-shadow:5px 5px 14px rgb(17, 209, 90);
+    text-decoration:  2px rgb(8, 231, 19) underline;
+}
+#t:hover{
+    text-shadow:5px 5px 14px rgb(252, 255, 255);
+    text-decoration:  2px rgb(255, 255, 255) underline;
+}
+#you:hover{
+    text-shadow:5px 5px 14px rgb(240, 18, 18);
+    text-decoration:  2px rgb(255, 10, 10) underline;
+}
